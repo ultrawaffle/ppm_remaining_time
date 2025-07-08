@@ -4,7 +4,7 @@
 This repository contains the evaluation scripts as described in the manuscript <i>Remaining Time Prediction: A Case Study</i> submitted to the ML4PM Workshop, co-located with the ICPM 2025.
 
 ## Data
-The used data the outbound warehouse process can be found online: HIER BITE FIGSHARE LINK EINFÜGEN
+The used data the outbound warehouse process can be found [here](https://figshare.com/articles/dataset/Warehouse_outbound_event_log/29500898).
 
 This data set consists of:
 ```
