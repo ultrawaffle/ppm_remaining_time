@@ -11,13 +11,13 @@ if __name__ == '__main__':
     output_dataset_location = sys.argv[3]
 
     # Perform data split and prepare features
-    # data_preprocessing.prepare_data(dataset_name=dataset_name,
-    #                                 dataset_location=input_dataset_location,
-    #                                 output_location=output_dataset_location)
+    data_preprocessing.prepare_data(dataset_name=dataset_name,
+                                    dataset_location=input_dataset_location,
+                                    output_location=output_dataset_location)
 
-    # #Prepare dataest for GraphGPS
-    # GTConverter.create_graph_dataset(input_dataset_location=output_dataset_location + '/' + dataset_name + '/',
-    #                                   graph_dataset_path_raw=output_dataset_location + '/' + dataset_name + '/graph_dataset/raw/')
+    #Prepare dataest for GraphGPS
+    GTConverter.create_graph_dataset(input_dataset_location=output_dataset_location + '/' + dataset_name + '/',
+                                      graph_dataset_path_raw=output_dataset_location + '/' + dataset_name + '/graph_dataset/raw/')
 
     sutran.construct_datasets(dataset_name=dataset_name, 
                               dataset_location=input_dataset_location, 
